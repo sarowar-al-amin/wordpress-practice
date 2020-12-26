@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/vendr-animtd-circle.css">
     <link rel="stylesheet" href="css/progresscircle.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"> -->
+    <!-- <link rel="stylesheet" href=""> -->
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <?php
        wp_head();
@@ -53,3 +53,32 @@
     </div>
     <!----------- Header portion finish--------->
     <!----------For testing purpose ----->
+
+<!-- 
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Services &rsaquo;</a>
+            <ul>
+                <li><a href="#">Adimn Support &rsaquo;</a></li>
+                <li><a href="#">Digital Marketing &rsaquo;</a></li>
+                <li><a href="#">Web Design Services</a></li>
+                <li><a href="#">Garphics Design Services</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Our products &rsaquo;</a>
+            <ul>
+                <li><a href="#">Graphics Design</a></li>
+                <li><a href="#">Wordpress Theme</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact us</a></li>
+        <li>
+            <div id="sign_in">
+                <button id="dialogop3">
+                    sign in
+                </button>
+            </div>
+        </li>
+    </ul>
+
+ -->
