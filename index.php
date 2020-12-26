@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="css/vendr-animtd-circle.css">
     <link rel="stylesheet" href="css/progresscircle.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
+    <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"> -->
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
-
+    <?php
+       wp_head();
+    ?>
 
 </head>
 
@@ -527,6 +529,10 @@
             $('.circlechart').circlechart(); // Initialization
         </script>
     </div>
+
+    <?php
+        wp_footer();
+    ?>
 </body>
 
 </html>
