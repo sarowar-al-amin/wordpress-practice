@@ -1,0 +1,2933 @@
+/* 
+    Theme Name: ordianIT
+    Author: Md.Sarowar Al-Amin
+    Author URI: github.com/sarowar-al-amin
+    Version: 0.0.1
+    Description: learning about  wordpress
+*/
+
+
+/*
+    This code is written by Md. Sarowar Al-Amin
+    =====================================
+    Basic style at the very beginning
+    ======================================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+em {
+    color: #BC833E;
+}
+
+
+/*
+    Define container
+*/
+
+.container_full {
+    width: 100%;
+}
+
+.container {
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 
+    Background of header portion
+*/
+
+.header_bg {
+    background-color: #ffffff;
+}
+
+
+/*
+    For logo 
+*/
+
+#header .logo_left {
+    float: left;
+}
+
+#header .logo_left img {
+    width: 116px;
+    margin-left: -10px;
+    height: 90px;
+}
+
+
+/* 
+    Design for navigation bar
+*/
+
+#header nav {
+    float: right;
+}
+
+#header>nav #menu ul {
+    list-style-type: none;
+    z-index: 999;
+}
+
+#header>nav #menu ul li {
+    float: left;
+}
+
+#header>nav #menu ul li a {
+    display: block;
+    color: black;
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+#header>nav #menu ul li {
+    position: relative;
+}
+
+#header>nav #menu ul li ul {
+    position: absolute;
+    left: -9999px;
+}
+
+#header>nav #menu ul li:hover ul {
+    left: 0px;
+}
+
+
+/*
+#header>nav #menu li:last-child{
+    padding-right: none;
+    width: 55px;
+    height: 30px;
+    background-color: #FFB255;
+    border-radius: 3px;
+}
+*/
+
+#header>nav #menu ul li a:hover {
+    color: #FFB255;
+}
+
+#header>nav #menu ul li.active a {
+    color: #FFB255;
+}
+
+
+/* 
+    Design for sign in 
+*/
+
+#header>nav #menu ul li #sign_in {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+#header>nav #menu ul li #sign_in button {
+    background-color: #fac188;
+    color: #ffff;
+    border-radius: 4px;
+    border: 1px solid #fac188;
+}
+
+#header>nav #menu ul li #sign_in a {
+    width: 38px;
+    background-color: #FFB255;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+
+/* 
+    First content floating left
+*/
+
+.contain_first {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left_side_content {
+    width: 485px;
+    float: left;
+}
+
+.left_side_content h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.left_side_content p {
+    font-family: Roboto;
+}
+
+.right_side_content {
+    width: 485px;
+    float: left
+}
+
+
+/* 
+    for first content head bar
+*/
+
+.head_bar p {
+    padding: 10px;
+    padding-left: 0;
+    color: #FFB255;
+}
+
+
+/* 
+    Yellow and Blue Bar floating
+*/
+
+
+/* 
+    for first yellow bar
+*/
+
+.bar .yellow {
+    float: left;
+    width: 20px;
+    height: 4px;
+    margin-right: 3px;
+    background-color: #FFB255;
+    border-radius: 2px;
+}
+
+
+/* 
+    for first blue bar
+*/
+
+.bar .blue {
+    float: left;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(64, 192, 224);
+    border-radius: 2px;
+}
+
+
+/* 
+    Drawing the circle
+*/
+
+#circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 2%;
+    border-color: #FFB255;
+    background-color: #e78a17;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+#circle:hover {
+    opacity: 1;
+}
+
+
+/*
+    Triangle drawing at the bottom
+*/
+
+.left_side_content .perfectTriangle {
+    padding-left: 329px;
+    padding-top: 10px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin: 10px;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 32px solid #e78a17;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+.triangle:hover {
+    opacity: 1;
+}
+
+
+/* 
+    view all services botton
+*/
+
+.view_services {
+    width: 125px;
+    height: 28px;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #FFB255;
+    border-radius: 2px;
+    transition: all 0.4s ease;
+}
+
+.view_services:hover {
+    /* scale: 1.5; */
+    background: #000000;
+}
+
+.view_services a {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* 
+    First content image 
+*/
+
+.first_content_rs_img img {
+    padding-left: 98px;
+    width: 400px;
+    padding-top: 10px;
+    height: 354px;
+}
+
+
+/*
+    Footer background
+*/
+
+.footer_bg {
+    background-color: #0C131A;
+}
+
+#footer_bottom p {
+    width: 320px;
+    color: #BC833E;
+    float: left;
+}
+
+.maintainSpace {
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+
+
+/* 
+    Footer yellow bar
+*/
+
+.f_bar_y {
+    float: left;
+    width: 15px;
+    height: 5px;
+    margin-right: 3px;
+    background-color: #FFB255;
+    border-radius: 1px;
+}
+
+
+/*
+    Footer blue bar
+*/
+
+.f_bar_b {
+    float: left;
+    padding-right: 2px;
+    margin-right: 2px;
+    width: 20px;
+    height: 5px;
+    background-color: rgb(64, 192, 224);
+    border-radius: 1px;
+}
+
+
+/*
+    Bar wrapper will float those bar in left
+*/
+
+.bar_wrap {
+    float: left;
+    padding: 2px;
+    margin: 2px 5px;
+}
+
+.footer_col:last-child {
+    margin-right: none;
+}
+
+.footer_col h3 {
+    color: #ffffff;
+}
+
+.footer_col h2 {
+    font-family: Roboto;
+    font-weight: 80;
+    color: #e78a17;
+}
+
+
+/*
+    Footer  paragraph and read more
+*/
+
+.footer_p {
+    width: 220px;
+}
+
+.footer_p p {
+    font-family: Roboto;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.footer_p a {
+    font-size: 12px;
+    color: #e78a17;
+    font-family: Roboto;
+}
+
+
+/* 
+    Responsible for making 4 column in row
+*/
+
+.footer_col {
+    list-style-type: none;
+    width: 240px;
+    float: left;
+    margin-right: 5px;
+    display: block;
+}
+
+.footer_col li a {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.footer_col p {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.footer_head {
+    /* display: block; */
+    padding-bottom: 20px;
+}
+
+
+/* 
+    Footer bottom
+*/
+
+#footer_bottom {
+    padding: 20px 4px;
+}
+
+#footer_bottom p {
+    margin-top: 5px;
+}
+
+#footer_bottom span a i {
+    color: #BC833E;
+    padding-right: 15px;
+}
+
+.white_bar_at_footer {
+    height: 1px;
+    background-color: white;
+}
+
+
+/* Side design  */
+
+.first_con_bg .design_of_first_con img {
+    width: 50px;
+    height: 300px;
+}
+
+.first_con_bg .design_of_first_con img:first-child {
+    float: left;
+}
+
+.first_con_bg .design_of_first_con img:last-child {
+    float: right;
+}
+
+
+/*
+    ========================================
+    Second component
+    ========================================
+*/
+
+.contain_second .left_side_content h2 {
+    font-size: 22px;
+    font-family: Roboto;
+    color: #FFB255;
+}
+
+.contain_second .right_side_content .second_content_rs_img img {
+    padding-left: 40px;
+    width: 430px;
+    padding-top: 170px;
+    height: 320px;
+}
+
+
+/*
+    Box inside the second container
+*/
+
+.box_wrapper {
+    overflow: hidden;
+}
+
+.box_wrapper .left_box {
+    float: left;
+    width: 180px;
+    margin: 5px;
+}
+
+.box_wrapper .right_box {
+    float: left;
+    width: 150px;
+    margin: 5px;
+}
+
+.box {
+    width: 165px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.box:hover {
+    border: 1px solid #1f1e1e;
+    scale: 1.1;
+    border-radius: 5px;
+}
+
+.box h3 {
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+}
+
+.box p {
+    font-size: 9px;
+    font-family: Roboto;
+    color: black;
+}
+
+.box .img_of_box img {
+    padding-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+
+/*
+============================================
+    Margin Box
+============================================
+*/
+
+.margin_box {
+    margin-top: 20px;
+}
+
+
+/* 
+==========================================
+    thrid container Design
+==========================================
+*/
+
+.third_con_bg {
+    background-color: #fffbef;
+}
+
+.contain_third .left_side_content {
+    width: 490px;
+    float: left;
+}
+
+.contain_third .left_side_content img {
+    padding-top: 50px;
+    padding-bottom: 21px;
+    width: 383px;
+}
+
+
+/*
+    Thrid container right portion
+*/
+
+.contain_third .right_side_content {
+    padding-top: 35px;
+}
+
+.contain_third .right_side_content h2 {
+    font-weight: bold;
+}
+
+
+/* 
+    =======Fourth Container=======
+*/
+
+.contain_fourth .left_side_content {
+    padding-top: 10px;
+}
+
+.contain_fourth .right_side_content .fourth_content_rs_img img {
+    padding-left: 15px;
+    width: 482px;
+    height: 354px;
+}
+
+
+/*
+===============================
+    Fifth container
+===============================
+*/
+
+.fifth_bg {
+    background-color: #FFFAF3;
+}
+
+.fifth_contain {
+    margin-left: 20px;
+}
+
+.fifth_contain .left_side_content {
+    padding-top: 35px;
+    width: 480px;
+    float: left;
+    padding-bottom: 35px;
+}
+
+.fifth_contain .right_side_content {
+    width: 480px;
+    float: left;
+    padding-top: 35px;
+}
+
+.fifth_contain .right_side_content h2 {
+    font-weight: bold;
+}
+
+.fifth_content_left_img img {
+    width: 360px;
+    height: 330px;
+}
+
+
+/*
+====================================
+    Container 6 design
+====================================
+*/
+
+.sixth_conatain .left_side_content {
+    width: 480px;
+    margin-top: 30px;
+    display: block;
+}
+
+.sixth_contain .left_side_content .list_wrapper {
+    padding-bottom: 20px;
+}
+
+.right_side_content .sixth_content_rs_img img {
+    width: 475px;
+    height: 330px;
+    padding-left: 20px;
+}
+
+
+/*
+    Seventh Container's image
+*/
+
+.seventh_contain .left_side_content {
+    width: 450px;
+    padding-right: 10px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.seventh_contain .right_side_content {
+    margin-top: 25px;
+    padding-top: 10px;
+    width: 450px;
+}
+
+.seventh_contain .right_side_content h2 {
+    font-weight: bold;
+}
+
+.seventh_contain .right_side_content .list_wrapper {
+    padding-bottom: 25px;
+}
+
+.seventh_content_rs_img img {
+    padding-top: 50px;
+    width: 410px;
+    height: 295px;
+}
+
+
+/*
+    Checked circle design
+*/
+
+.check_circle_text {
+    height: 25px;
+}
+
+
+/* .check_circle_text .check_circle img {
+    width: 23px;
+    height: 24px;
+    padding-left: 5px;
+    float: left;
+} */
+
+.check_circle_text p {
+    margin-left: 2px;
+}
+
+.check_circle_text p i {
+    color: #F1A255;
+}
+
+
+/*
+====================================
+    Eighth container 
+====================================
+*/
+
+.eighth_contain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.eighth_contain .header-8 {
+    padding-top: 20px;
+    width: 260px;
+}
+
+.eighth_contain .header-8 h2 {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.eighth_contain .header-8 p {
+    font-size: 9px;
+}
+
+.eighth_contain .bottom-8 {
+    padding-left: 150px;
+}
+
+.eighth_contain .bottom-8 .bottom-up-8 {
+    width: 729px;
+    height: 250px;
+    display: block;
+    box-shadow: 0px 0px 18px 3px rgb(202, 202, 194);
+}
+
+.eighth_contain .bottom-8 .bottom-up-8 img {
+    width: 20px;
+    height: 20px;
+}
+
+.eighth_contain .bottom-8 .bottom-up-8 img:first-child {
+    float: left;
+}
+
+.eighth_contain .bottom-8 .bottom-up-8 h6 {
+    padding-left: 20px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.eighth_contain .bottom-8 .bottom-up-8 h6 i {
+    color: #F1AF5F;
+    width: 30px;
+}
+
+
+/* .bottom-up-8 .star_mark img {
+    width: 12px;
+    height: 12px;
+    float: left;
+} */
+
+.bottom-up-8 .star_mark {
+    text-align: center;
+}
+
+.bottom-up-8 .star_mark i {
+    color: #F1A255;
+}
+
+.bottom-up-8 h4,
+h5 {
+    text-align: center;
+}
+
+.bottom-up-8 h5 mark {
+    color: #F1A255;
+    background-color: #ffff;
+}
+
+
+/* .bottom-up-8 .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+} */
+
+.bottom-up-8 img:last-child {
+    float: right;
+}
+
+
+/* .bottom-up-8 .star_mark i:hover {
+    background: #F1A255;
+} */
+
+
+/*
+    Nineth container 
+*/
+
+.nineth_bg {
+    background-color: #fcf1e5;
+}
+
+.animated_circle {
+    float: left;
+}
+
+.animtd-circle-text {
+    width: 325px;
+}
+
+.animtd-text-head {
+    padding-top: 30px;
+}
+
+.animtd-text-head h4 {
+    color: #FFB255;
+}
+
+.animtd-circle-img {
+    float: left;
+    width: 225px;
+}
+
+svg.radial-progress circle {
+    stroke: #F1AF5F;
+}
+
+
+/* .animated_circle:last-child {
+    padding-bottom: 30px;
+} */
+
+
+/*
+=====================================
+=====================================
+    Lead Generation
+=====================================
+=====================================
+*/
+
+.lead_head_pic {
+    height: 200px;
+}
+
+.lead_background {
+    height: 210px;
+}
+
+.lead_background img {
+    width: fit-content;
+    opacity: 0.3;
+}
+
+.lead_background iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.lead_second_bg {
+    background-color: #f3e3d0;
+}
+
+.lead_second_first {
+    width: 320px;
+    float: left;
+}
+
+.lead_second_first .list_wrapper .check_circle_text {
+    padding-bottom: 17px;
+}
+
+.lead_second_second {
+    width: 320px;
+    float: left;
+}
+
+.lead_second_second img {
+    padding: 5px;
+    padding-left: 20px;
+    width: 225px;
+    height: 400px;
+}
+
+.lead_second_third .list_wrapper .lead_padding {
+    padding-bottom: 17px;
+}
+
+.lead_package h2 {
+    font-weight: bold;
+}
+
+.lead_package .head_bar {
+    padding-bottom: 10px;
+}
+
+.lead_package .head_bar .bar {
+    padding-bottom: 10px;
+}
+
+.packages {
+    width: 300px;
+    margin-right: 5px;
+    /* margin-bottom: 10px; */
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    /* padding-right: 3px; */
+    /* border: 1px solid rgb(163, 162, 162); */
+    float: left;
+}
+
+.package_head_bg {
+    background-color: #fff1e1;
+}
+
+.packages :last-child {
+    margin-right: none;
+}
+
+.packages .package_head {
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+.packages .package_head img {
+    padding-top: 20px;
+    width: 17px;
+    height: 17px;
+    display: block;
+    margin: 0 auto;
+}
+
+.packages .package_description p {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.packages .package_head h4,
+h6 {
+    color: #c17212;
+    text-align: center;
+}
+
+
+/* .packages .package_head h4 {
+    padding-left: 110px;
+} */
+
+.extra_margin {
+    margin-top: 75px;
+}
+
+.margin_trim {
+    margin-top: 58px;
+}
+
+.packages .package_required h5 {
+    padding: 5px 120px;
+    border-radius: 5px;
+}
+
+.package_wrapper .packages .package_required h6 {
+    color: black;
+    display: block;
+    margin: 4px auto;
+}
+
+.package_wrapper .packages .package_we_provide h6 {
+    color: black;
+    margin: 4px auto;
+}
+
+.packages .package_we_provide h5 {
+    padding: 5px 115px;
+    border-radius: 5px;
+}
+
+.package_purchase {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2px;
+    margin-bottom: 21px;
+    border-radius: 2px;
+}
+
+.package_purchase .purchase {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    background-color: #F1AF5F;
+}
+
+.purchase a {
+    margin-top: 6px;
+    padding-left: 20px;
+    font-weight: 90;
+    color: #ffffff;
+}
+
+
+/*
+    Fifth container of lead generation
+*/
+
+.lead_fifth_contain {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.lead_fifth_contain .lead_fifth_top {
+    width: 200px;
+}
+
+.lead_fifth_contain .lead_fifth_top h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lead_fifth_contain .lead_fifth_top p {
+    font-size: 11px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth {
+    height: 300px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part {
+    width: 200px;
+    height: 155px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0px 0px 7px 2px grey;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part:first-child {
+    margin-left: 10px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part img {
+    width: 60px;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part h4 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part p {
+    font-size: 9px;
+    text-align: center;
+}
+
+
+/*
+    Sixthh container of Lead generation
+*/
+
+.lead_sixth_contain {
+    height: 102px;
+    background-color: #F1AF5F;
+}
+
+.lead_six_left_img {
+    float: left;
+}
+
+.lead_six_left_img img {
+    width: 150px;
+    height: 100px;
+}
+
+.lead_six_right_img {
+    float: right;
+}
+
+.lead_six_right_img img {
+    margin-top: 5px;
+    height: 90px;
+    width: 150px;
+}
+
+.lead_sixth_contain .container .lead_six_text {
+    width: 650px;
+    height: 35px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.lead_sixth_contain .container .lead_six_text h4 {
+    width: auto;
+    color: #ffffff;
+    float: left;
+}
+
+.lead_sixth_contain .container .lead_six_text .contact_us_box {
+    float: right;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(#FFE855, #FFBD55, #F1AF5F);
+}
+
+.lead_sixth_contain .container .lead_six_text .contact_us_box a {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+/*
+=====================================
+    Graphics Design
+=====================================
+*/
+
+.graphics_head_pic {
+    height: 280px;
+    /* width: auto; */
+    /* background-image: url("img/top-view-tools-marketing.png"); */
+}
+
+.graphics_background {
+    width: 1920;
+    height: 280px;
+    opacity: 0.4;
+    /* background-image: url('img/top-view-tools-marketing.png'); */
+}
+
+.graphic_left_side_content {
+    width: 370px;
+    float: left;
+    margin-right: 10px;
+}
+
+.graphic_left_side_content .first_content_left_img img {
+    width: 360px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.graphics_right_side_content {
+    width: 560px;
+    padding-top: 100px;
+    float: left;
+}
+
+.graphics_right_side_content p {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.graphics_right_side_content p mark {
+    background-color: #ffff;
+    color: #F1A255;
+}
+
+.graphics_background .container {
+    opacity: 1;
+}
+
+.graphics_head_pic .container h3 {
+    /* opacity: 1; */
+    font-weight: bolder;
+    margin-top: -85px;
+}
+
+.graphics_head_pic .container h6 {
+    font-size: 10px;
+    color: #000000;
+    text-align: left;
+}
+
+.graphics_third_contain .head_bar {
+    margin-bottom: 2px;
+}
+
+.graphics_third_contain .info_text {
+    margin-top: 5px;
+}
+
+.graphics_third_contain .info_text h2 {
+    font-weight: bold;
+}
+
+.graphics_third_contain .info_text h3 {
+    font-weight: bold;
+}
+
+.graphics_third_contain .info_text p {
+    font-size: 12px;
+}
+
+.graphics_third_contain .info_text p i {
+    color: #F1A255;
+}
+
+.graphic_second_contain .graphic_second_first {
+    width: 320px;
+    float: left;
+}
+
+.graphic_second_contain .list_wrapper .check_circle_text h6 {
+    color: #000000;
+    text-align: left;
+}
+
+.graphic_second_contain .list_wrapper .check_circle_text h6 i {
+    color: #F1A255;
+}
+
+.graphic_second_third {
+    width: 320px;
+    float: left;
+}
+
+.graphic_second_third .list_wrapper .check_circle_text h6 {
+    color: #000000;
+    text-align: left;
+}
+
+.graphic_second_third .list_wrapper .check_circle_text h6 i {
+    color: #F1A255;
+}
+
+.graphic_first_contain .description {
+    float: left;
+}
+
+.graphic_first_contain .description p {
+    font-size: 12px;
+}
+
+.graphic_first_contain .piority label select {
+    width: 120px;
+    height: 22px;
+    border: 1px solid #FFB255;
+    float: right;
+    border-radius: 4px;
+}
+
+.graphic_first_contain .piority ul {
+    list-style-type: none;
+}
+
+.graphic_first_contain .piority ul li a {
+    color: black;
+}
+
+.graphic_first_contain .piority ul li {
+    position: relative;
+}
+
+.graphic_first_contain .piority ul li ul {
+    position: -9999px;
+}
+
+.graphic_first_contain .piority ul li ul:hover {
+    position: absolute;
+}
+
+.container .circle_wrapper .circle {
+    width: 300px;
+    padding: 13px;
+    float: left;
+}
+
+.container .circle_wrapper .circle:first-child {
+    padding-left: none;
+}
+
+.container .circle_wrapper .circle:last-child {
+    padding-right: none;
+}
+
+.container .circle_wrapper .circle h5 {
+    color: #F1AF5F;
+    font-weight: bold;
+}
+
+.container .circle_wrapper .circle h6 {
+    color: #000000;
+    padding-left: 115px;
+}
+
+.container .circle_wrapper .circle .circlechart {
+    width: fit-content;
+    float: left;
+}
+
+
+/*
+    Second container of graphics design
+*/
+
+.option_to_peak {
+    height: 30px;
+}
+
+.option_to_peak .first_option {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    margin-right: 5px;
+    border-radius: 4px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .first_option a {
+    color: black;
+    padding-top: 3px;
+    padding-left: 19px;
+}
+
+.option_to_peak .second_option {
+    width: 70px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .third_option {
+    width: 90px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .fourth_option {
+    width: 70px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .fifth_option {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .sixth_option {
+    width: 140px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+.option_to_peak .txt_color a {
+    color: black;
+    padding-top: 3px;
+    padding-left: 15px;
+    transition: all 0.5s ease;
+}
+
+.option_to_peak .txt_color:hover {
+    background-color: #FFBD55;
+    color: #ffffff;
+}
+
+
+/*
+    Third container of graphics design
+*/
+
+.thrid_graphics_contain .options_view {
+    width: 300px;
+    height: 276px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    float: left;
+    border: 1px solid #f1a255;
+    border-radius: 4px;
+    /* border-bottom: 38px; */
+    transition: all .5s ease;
+}
+
+.thrid_graphics_contain .options_view:hover {
+    transform: scale(1.1);
+    background: antiquewhite;
+}
+
+.thrid_graphics_contain .options_view img {
+    width: 300px;
+}
+
+.thrid_graphics_contain .options_view h3 {
+    text-align: center;
+}
+
+.thrid_graphics_contain .options_view h4 {
+    width: 120px;
+    float: left;
+    margin-top: 0px;
+}
+
+.thrid_graphics_contain .options_view .price_tag {
+    width: 50px;
+    height: 25px;
+    background-color: #FFBD55;
+    border-radius: 5px;
+    float: right;
+}
+
+.thrid_graphics_contain .options_view .price_tag a {
+    margin-top: 5px;
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+
+/*
+    File upload in lead generation 
+*/
+
+.step_bar {
+    float: left;
+}
+
+.step_bar .bar1 {
+    float: left;
+    width: 50px;
+    height: 7px;
+    background-color: #FFB255;
+    border-radius: 1px;
+    margin-right: 15px;
+}
+
+.step_bar .bar_ashes {
+    float: left;
+    width: 50px;
+    height: 7px;
+    background-color: #706f6e;
+    border-radius: 1px;
+    margin-right: 15px;
+}
+
+.step_bar h6 {
+    padding-top: 10px;
+    color: black;
+    text-align: left;
+}
+
+.upload_point {
+    padding-top: 10px;
+    border: 1px solid #9e9b99;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.upload_point .cloud_image {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.upload_point .cloud_image a {
+    width: 50px;
+    height: 50px;
+}
+
+.upload_point .cloud_image a img {
+    width: 45px;
+    height: 45px;
+}
+
+.upload_point .text {
+    height: 60px;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upload_point .text h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.upload_point .text h6 {
+    color: black;
+    text-align: center;
+}
+
+.upload_point .text span {
+    color: #FFBD55;
+}
+
+.upload_point .text span i {
+    color: #000000;
+    text-align: center;
+}
+
+.upload_point .input_file {
+    width: 100px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.upload_point .input_file input {
+    background: #FFB255;
+}
+
+.continue {
+    width: 75px;
+    height: 30px;
+    background-color: #e78a17;
+    border-bottom: 20px;
+    border-radius: 5px;
+}
+
+.continue a {
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+
+/*
+    Check out page 
+*/
+
+.right_side_of_payment {
+    width: 480px;
+    padding-right: 20px;
+    float: left;
+}
+
+.right_side_of_payment .option_images {
+    height: 30px;
+}
+
+.option_images .image_no {
+    float: left;
+}
+
+.option_images .image_no a img {
+    width: 65px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.option_images .image_no:first-child {
+    padding-left: none;
+}
+
+
+/* 
+    Input Various data from user
+*/
+
+.right_side_of_payment .input_text {
+    height: 55px;
+    padding-bottom: 5px;
+    border: 1px solid #706f6e;
+}
+
+.input_text .input_area input {
+    height: 20px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper {
+    padding-bottom: 30px;
+}
+
+.input_text .input_area .selected_method {
+    float: right;
+    border: 1px solid #9e9b99;
+    border-radius: 3px;
+}
+
+.input_text .text_head .text_wrapper .text1 {
+    height: 17px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper .text1 h6 {
+    width: 70px;
+    height: 17px;
+    color: black;
+}
+
+.input_text .text_head .text_wrapper .text2 {
+    height: 17px;
+    padding-left: 300px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper .text2 h6 {
+    width: 50px;
+    height: 17px;
+    color: black;
+}
+
+.input_text .input_area .input_no {
+    width: 30px;
+    float: left;
+    padding-right: 30px;
+}
+
+
+/*
+    Buy botton
+*/
+
+.buy_botton {
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    background-color: #F1AF5F;
+    margin-bottom: 10px;
+}
+
+.buy_botton a {
+    padding-left: 8px;
+    color: #ffffff;
+}
+
+.check_out_right_side {
+    float: left;
+    width: 480px;
+}
+
+.payment_tab {
+    padding-top: 19px;
+}
+
+.payment_tab .pay_tab_head {
+    background: #FFBD55;
+    height: 35px;
+}
+
+.payment_tab .pay_tab_head h4 {
+    padding-top: 8px;
+    padding-left: 155px;
+    color: #ffffff;
+}
+
+.payment_tab .file_info .per_unit_cost h4 {
+    padding-top: 8px;
+    padding-left: 155px;
+}
+
+.check_out_right_side .payment_tab .file_info .file_name .records {
+    height: 65px;
+}
+
+.check_out_right_side .payment_tab .file_info .file_name .records p {
+    font-size: 15px;
+    width: 280px;
+    color: #9e9b99;
+    float: left;
+}
+
+.check_out_right_side .payment_tab .file_info .file_name .records h6 {
+    color: #000000;
+    width: 100px;
+    float: right;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box {
+    height: 25px;
+    border: 1px solid #000000;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_input {
+    float: left;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_input input {
+    width: 250px;
+    height: 21px;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_submit {
+    float: right;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_submit input {
+    background-color: #FFBD55;
+    width: 61px;
+    height: 25px;
+    color: #ffffff;
+}
+
+
+/*
+    ===================================
+            Contact Us Page 
+    ===================================
+*/
+
+.left_Of_contact {
+    padding-top: 20px;
+    width: 480px;
+    float: left;
+}
+
+.left_Of_contact .name {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .name input {
+    width: 400px;
+    height: 25px;
+}
+
+.left_Of_contact .enter_email {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .enter_email input {
+    width: 400px;
+    height: 25px;
+}
+
+.left_Of_contact .message_box {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .message_box textarea {
+    width: 400px;
+    height: 115px;
+}
+
+.left_Of_contact .submit_botton {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .submit_botton input {
+    background-color: #FFBD55;
+    width: 70px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.right_Of_contact {
+    width: 480px;
+    float: left;
+    padding-left: 20px;
+}
+
+.right_Of_contact h3 {
+    font-weight: bold;
+}
+
+.right_Of_contact p {
+    font-size: 15px;
+}
+
+.right_Of_contact .addresses .address {
+    width: 220px;
+    float: left;
+    padding-right: 20px;
+}
+
+.right_Of_contact .addresses .address h5 {
+    text-align: center;
+}
+
+.right_Of_contact .addresses .address h6 {
+    text-align: center;
+}
+
+
+/*
+================================
+    Dash Board Design
+================================
+*/
+
+#header .dashboard {
+    height: 120px;
+}
+
+#header .dashboard .logo_left {
+    padding-right: 70px;
+    /* border-bottom: 1px solid #F1AF5F; */
+    float: left;
+}
+
+#header .dashboard .logo_left img {
+    width: 116px;
+    height: 90px;
+    padding-bottom: 10px;
+}
+
+#header .dashboard .user_info {
+    margin-top: 25px;
+    padding-right: 80px;
+    float: left;
+}
+
+#header .dashboard .user_info img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+#header .dashboard .user_info .user_name {
+    float: left;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+#header .dashboard .user_info .user_name span i {
+    padding-left: 0px;
+}
+
+.dashboard .search_bar {
+    padding-right: 20px;
+    float: left;
+}
+
+.dashboard .search_bar input {
+    margin-top: 20px;
+    width: 226px;
+    height: 35px;
+    border: 1px solid #F1AF5F;
+    border-radius: 5px;
+}
+
+.dashboard .notification_bell {
+    padding-top: 19px;
+    float: right;
+}
+
+.iteams_container {
+    border: 1px solid #9e9b99;
+    width: 190px;
+    height: 100%;
+    float: left;
+}
+
+.iteams_container .initial_part {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.iteams_container .initial_part ul {
+    list-style-type: none;
+}
+
+.iteams_container .initial_part ul li {
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+.iteams_container .initial_part ul li:hover {
+    background: #FFBD55;
+}
+
+.iteams_container .initial_part ul li a {
+    color: #4d4a48;
+    width: 190px;
+    font-size: 12px;
+}
+
+.iteams_container .ending_part {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.iteams_container .ending_part ul li {
+    height: 30px;
+    font-size: 12px;
+    transition: all 0.5s ease;
+}
+
+.iteams_container .ending_part ul li:hover {
+    background: #F1AF5F;
+}
+
+.iteams_container .ending_part ul li a {
+    color: #4d4a48;
+}
+
+.iteams_container .logout {
+    list-style-type: none;
+}
+
+.iteams_container .logout li {
+    height: 30px;
+    font-size: 12px;
+    transition: all 0.6s ease;
+}
+
+.iteams_container .logout li:hover {
+    background: #F1AF5F;
+}
+
+.iteams_container .logout li a {
+    color: #4d4a48;
+}
+
+
+/*
+    Content portion
+*/
+
+.upper_content {
+    float: left;
+    padding-left: 5px;
+    /* border-bottom: 1px solid #e78a17; */
+}
+
+.upper_content .upper_left {
+    border-bottom: 1px solid #e78a17;
+}
+
+.upper_content .upper_left .left_portion {
+    float: left;
+    width: 380px;
+    display: block;
+}
+
+.upper_content .upper_left .left_portion .work_part {
+    width: 390px;
+    float: left;
+}
+
+.upper_content .upper_left .left_portion .work_part .work {
+    float: left;
+    width: 99px;
+    height: 85px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    margin-left: 13px;
+    padding-right: 1px;
+    box-shadow: 0px 0px 18px 3px rgb(202, 202, 194);
+    transition: all 0.5s ease;
+}
+
+.upper_content .upper_left .left_portion .work_part .work:first-child {
+    margin-left: none;
+}
+
+.upper_content .upper_left .left_portion .work_part .work:hover {
+    scale: 1.5;
+    border: 1px solid #F1AF5F;
+    border-radius: 5px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work h4 {
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work h5 {
+    font-size: 9px;
+    color: #ffffff;
+    /* padding-left: 0; */
+    text-align: center;
+}
+
+.upper_content .upper_left .left_portion .Admin_part {
+    float: left;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service {
+    float: left;
+    width: 90px;
+    height: 65px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 18px 3px rgb(202, 202, 194);
+    transition: all 0.5s ease;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service img {
+    width: 20px;
+    height: 20px;
+    padding-left: 22px;
+    padding-top: 8px;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service h4 {
+    font-size: 12px;
+    /* padding-left: 0; */
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*
+ Dash bord upper right
+*/
+
+.upper_content .upper_left .upper_right_dash {
+    width: 390px;
+    padding-left: 10px;
+    float: left;
+    border: 1px solid #9e9b99;
+    border-right: none;
+    display: block;
+}
+
+.upper_content .upper_left .upper_right_dash .header_part h3 {
+    width: 291px;
+    font-size: 15px;
+    padding-left: 60px;
+    background: #e4dbdb52;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post {
+    width: 320px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post:last-child {
+    border-bottom: none;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post img {
+    width: 25px;
+    height: 22px;
+    float: left;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post p {
+    font-size: 10px;
+}
+
+
+/*
+    Bottom part of dash board
+*/
+
+.bottom_content {
+    padding-left: 10px;
+    float: left;
+}
+
+.bottom_content .bottom_left {
+    float: left;
+    width: 200px;
+}
+
+.bottom_content .bottom_left .digital_market {
+    padding-bottom: 75px;
+}
+
+.bottom_content .bottom_left .digital_market h4 {
+    font-size: 15px;
+}
+
+.bottom_content .bottom_left .digital_market .marketing {
+    width: 90px;
+    height: 65px;
+    background: #e78a17;
+    float: left;
+    border-right: 2px solid #ffffff;
+}
+
+.bottom_content .bottom_left .digital_market .marketing img {
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.bottom_content .bottom_left .digital_market .marketing h5 {
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+
+/*
+    Bottom right of the Dashboard
+*/
+
+.bottom_content .bottom_right {
+    float: left;
+    margin-top: 16px;
+}
+
+.bottom_content .bottom_right .circle_wrapper {
+    width: 575px;
+    height: 118px;
+    padding-bottom: 9px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle {
+    width: 160px;
+    height: 96px;
+    float: left;
+    background: #fff9f0;
+    /* padding-right: 1px; */
+    /* margin-right: 2px solid #ffffff; */
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle:last-child {
+    padding-right: none;
+    border-right: none;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h5 {
+    color: #e78a17;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h5:first-child {
+    font-size: 9px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h6 {
+    color: #101010;
+    font-size: 8px;
+    padding-left: none;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h6:first-child {
+    font-size: 7px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle .circlechart {
+    float: left;
+    padding-right: 10px;
+}
+
+
+/*
+    Dash board table
+*/
+
+.bottom_content .bottom_right .table_header h4 {
+    width: 100px;
+    height: 23px;
+    background: #85817e;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+.bottom_content .bottom_right .table_data {
+    height: 20px;
+}
+
+.bottom_content .bottom_right .table_data h4 {
+    width: 100px;
+    height: 20px;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-size: 10px;
+    float: left;
+}
+
+.bottom_content .bottom_right .table_data .back_color {
+    color: #F1AF5F;
+}
+
+.bg-color {
+    background: dimgrey;
+}
+
+.bottom_content .bottom_right .table_data .marked {
+    border-left: 1px solid #F1AF5F;
+}
+
+.bottom_content .bottom_right .table_data .endcheck {
+    border-right: 1px solid #F1AF5F;
+}
+
+
+/*
+    ***************************
+    Lead generation dashboard
+    ***************************
+*/
+
+.upper_content .lead_upper_left .left_portion {
+    width: 500px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .left_portion .work {
+    float: left;
+    width: 90px;
+    height: 85px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    padding-left: 25px;
+    padding-right: 1px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work h4 {
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work h5 {
+    font-size: 9px;
+    color: #ffffff;
+    padding-left: 7px;
+}
+
+
+/*Right part/post/review */
+
+.upper_content .lead_upper_left .upper_right_dash {
+    width: 260px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .header_part {
+    background: #e4dbdb52;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .header_part h3 {
+    font-size: 12px;
+    padding-left: 60px;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post {
+    border-bottom: 1px solid #9e9b99;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post:last-child {
+    border-bottom: none;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post img {
+    width: 25px;
+    height: 22px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post p {
+    font-size: 8px;
+}
+
+
+/*
+    *****************************
+    Graphics design product list
+    *****************************
+*/
+
+.left_graph_product {
+    width: 50%;
+    float: left;
+}
+
+.left_graph_product .preview_image {
+    height: 250px;
+}
+
+.left_graph_product .preview_image img {
+    height: 250px;
+}
+
+.left_graph_product .documentation {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.left_graph_product .documentation a {
+    background: rgb(64, 192, 224);
+    color: #ffffff;
+    font-size: 20px;
+    width: 60px;
+    height: 35px;
+    margin-left: 180px;
+    border-radius: 3px;
+}
+
+
+/*
+    Help  Bar design
+*/
+
+.help_bar {
+    height: 80px;
+    background: linear-gradient( rgb(241, 142, 28), rgb(228, 215, 143));
+}
+
+.help_bar .image img {
+    width: 80px;
+    height: 80px;
+}
+
+.help_bar .image:first-child {
+    float: left;
+}
+
+.help_bar .image img:last-child {
+    float: right;
+}
+
+.help_bar .help_box img {
+    width: 23px;
+    height: 23px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.help_bar .help_box {
+    width: 200px;
+    height: 60px;
+    float: left;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+
+.help_bar .help_box h4 {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.help_bar .support_hour {
+    float: left;
+    width: 120px;
+    height: 80px;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.help_bar .support_hour img {
+    width: 35px;
+    height: 35px;
+    float: left;
+    padding: 10px;
+}
+
+
+/*
+    Products of graphics design
+*/
+
+.left_graph_product .product a img {
+    width: 99%;
+    border: 1px solid #787c7c;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+.left_graph_product .product a img:hover {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #FFBD55;
+}
+
+.left_graph_product .app_creators ul {
+    list-style-type: circle;
+    color: #FFBD55;
+}
+
+.left_graph_product .app_creators ul li {
+    list-style-type: circle;
+}
+
+.left_graph_product .app_creators ul li a {
+    color: #ca7b00;
+    font-size: 12px;
+}
+
+.left_graph_product .app_creators ul li a i {
+    color: #000000;
+}
+
+.left_graph_product .icons_graph li {
+    font: arial;
+    font-size: 12px;
+    color: #000000;
+}
+
+.left_graph_product .icons_graph li a {
+    font-size: 12px;
+    color: #BC833E;
+}
+
+.left_graph_product .images_graphic li a {
+    font-size: 15px;
+    color: #cc760e;
+}
+
+.left_graph_product .fonts_graphic li a {
+    font-size: 15px;
+    color: #d27e18;
+}
+
+
+/*
+    Right portion of graphic product list
+*/
+
+.right_graph_product {
+    float: left;
+    border-left: 10px;
+    padding-left: 10px;
+    width: 460px;
+}
+
+.right_graph_product .upper_box {
+    border: 1px solid #f3e3d0;
+    border-top: none;
+}
+
+.right_graph_product .upper_box h2 {
+    padding-left: 117px;
+    background: linear-gradient(rgb(201, 196, 196), #ffff);
+}
+
+.right_graph_product .upper_box .type_tag {
+    height: 30px;
+    border-bottom: 1px solid #ddd9d6;
+}
+
+.right_graph_product .upper_box .type_tag h3 {
+    width: 45px;
+}
+
+.right_graph_product .upper_box .type_tag h3:first-child {
+    float: left;
+    padding-left: 10px;
+}
+
+.right_graph_product .upper_box .type_tag h3:last-child {
+    float: right;
+    color: #F1AF5F;
+    font-weight: 200;
+    padding-left: 69px;
+}
+
+.right_graph_product .upper_box .note {
+    height: 35px;
+    padding-left: 8px;
+    background: #f0efec;
+}
+
+.right_graph_product .upper_box .note p {
+    font-size: 12px;
+}
+
+.right_graph_product .upper_box .license_botton {
+    padding: 8px;
+    padding-left: 144px;
+    height: 20px;
+    border-bottom: 1px solid #f8f2e9;
+}
+
+.right_graph_product .upper_box .license_botton a {
+    background: linear-gradient( #F1A255, #552e08);
+    color: #ffff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.right_graph_product .upper_box .buy2_botton {
+    padding: 8px;
+    padding-left: 185px;
+    height: 20px;
+    border-bottom: 1px solid #f8f2e9;
+}
+
+.right_graph_product .upper_box .buy2_botton a {
+    background: linear-gradient(#305725, #8d5216);
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.right_graph_product .lower_box {
+    border: 1px solid #f3e3d0;
+    border-top: none;
+    margin-top: 35px;
+}
+
+.right_graph_product .lower_box h2 {
+    border-top: 1px solid #f3e3d0;
+    border-bottom: 1px solid #f3e3d0;
+    font-weight: bold;
+}
+
+.right_graph_product .lower_box h3 {
+    font-size: 17px;
+    border-bottom: 1px solid #f3e3d0;
+}
+
+.right_graph_product .lower_box h3:last-child {
+    border-bottom: none;
+}
+
+
+/*
+    Settings form
+*/
+
+.settings_form {
+    width: 760px;
+    padding-left: 20px;
+    float: left;
+}
+
+.settings_form .head_setting {
+    border-bottom: 1px solid #f1dbb8;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+.settings_form .form_point form .admin_color_option {
+    /* border-bottom: 1px solid #f1dbb8; */
+    height: 35px;
+}
+
+.settings_form .form_point form .admin_color_option h5 {
+    width: 125px;
+    float: left;
+}
+
+.settings_form .form_point form .admin_color_option .classic {
+    float: left;
+    width: 148px;
+    font-family: Roboto;
+    margin-top: 8px;
+    padding-left: 25px;
+}
+
+.settings_form .form_point form .admin_color_option .classic input {
+    width: 30px;
+}
+
+.settings_form .form_point form .admin_color_option .dark {
+    float: left;
+    width: 148px;
+    font-family: Roboto;
+    margin-top: 10px;
+}
+
+.settings_form .form_point form .admin_color_option .dark input {
+    width: 30px;
+}
+
+.settings_form .form_point form .user_name {
+    /* border-bottom: 1px solid #f1dbb8; */
+    height: 213px;
+    /* display: block; */
+}
+
+.settings_form .form_point form .user_name .tittleName {
+    font-weight: bold;
+    text-align: left;
+}
+
+.settings_form .form_point form .user_name .name {
+    padding: 1px;
+}
+
+
+/* For radio botton */
+
+.settings_form .form_point form .user_name .name_radio {
+    padding: 1px;
+    font-size: 12px;
+}
+
+.settings_form .form_point form .user_name .name_radio h4 {
+    font-size: 16px;
+}
+
+.settings_form .form_point form .user_name .name_radio input {
+    padding-right: 10px;
+}
+
+.settings_form .form_point form .user_name .name_radio h4 sup i {
+    width: 3px;
+    height: 3px;
+    color: red;
+}
+
+
+/* Radio botton in setting ends here */
+
+.settings_form .form_point form .user_name .name h4 sup i {
+    color: red;
+}
+
+.settings_form .form_point form .user_name .name h6 {
+    width: 155px;
+    font-size: 12px;
+    color: #000000;
+    float: left;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.settings_form .form_point form .user_name .name input {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #f1dbb8;
+}
+
+
+/* For text area in settings */
+
+.settings_form .form_point form .user_name .name textarea {
+    width: 450px;
+    height: 60px;
+    border: 1px solid #F1AF5F;
+}
+
+.settings_form .form_point form .about_yourself {
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid #FFBD55; */
+}
+
+.settings_form .form_point form .about_yourself .bioInfo h6 {
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+.settings_form .form_point form .about_yourself h4 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.settings_form .form_point form .about_yourself .bioInfo textarea {
+    width: 350px;
+    height: 50px;
+    border: 1px solid #FFBD55;
+}
+
+.settings_form .form_point form .about_yourself .profile_info h6 {
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+.settings_form .form_point form .account_management {
+    /* border-bottom: 1px solid #FFB255; */
+    padding-bottom: 10px;
+}
+
+.settings_form .form_point form .account_management h4 {
+    font-weight: bold;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 {
+    width: 100%;
+    height: 60px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 h5 {
+    color: #000000;
+    font-size: 14px;
+    width: 150px;
+    font-weight: normal;
+    float: left;
+    text-align: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .changePasswordBotton {
+    width: 140px;
+    height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background: #FFB255;
+    float: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .changePasswordBotton a {
+    color: #ffffff;
+}
+
+.settings_form .form_point form .account_management .session {
+    width: 100%;
+    height: 30px;
+}
+
+.settings_form .form_point form .account_management .session h5 {
+    width: 150px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.settings_form .form_point form .account_management .session .botton_session a {
+    width: 350px;
+    height: 25px;
+    border: 1px solid #FFB255;
+    border-radius: 5px;
+    color: #FFB255;
+}
+
+
+/* .settings_form .form_point form .update {
+    width: 60px;
+    height: 30px;
+    background: #FFB255;
+    border-radius: 5px;
+} */
+
+.settings_form .form_point form .update span input {
+    color: #ffff;
+    width: 60px;
+    height: 30px;
+    background: #FFB255;
+    border-radius: 5px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 {
+    width: 100%;
+    height: 220px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .newPassword {
+    height: 32px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .newPassword h6 {
+    color: #000000;
+    font-size: 12px;
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .newPassword:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+.zero_margin_padding {
+    margin-left: -150px;
+    padding: 0px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .newPassword input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #FFB255;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .save_botton {
+    padding-left: 150px;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .save_botton input {
+    background: #FFB255;
+    width: 110px;
+    height: 30px;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+
+/*
+    Entering Owner Name 
+*/
+
+.owner_name {
+    width: 300px;
+    border-right: 20px;
+    border: 1px solid #FFBD55;
+    padding-bottom: none;
+    float: left;
+}
+
+.owner_name .owner_head {
+    color: #FFBD55;
+    border-bottom: 1px solid #FFBD55;
+}
+
+.owner_name .owner_head h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.owner_name .input {
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 3px;
+    border-bottom: 1px solid #FFBD55;
+}
+
+.owner_name .input input {
+    width: 100%;
+    height: 22px;
+    border: none;
+    background: #b0c9b9;
+    border-right: none;
+}
+
+.owner_name .input input:last-child {
+    padding-bottom: none;
+}
+
+.owner_address {
+    width: 350px;
+    padding-left: 20px;
+    padding-bottom: none;
+    float: left;
+}
+
+.owner_address .owner_address_head {
+    color: #FFBD55;
+    border: 1px solid #FFBD55;
+}
+
+.owner_address .owner_address_head h3 {
+    font-weight: bold;
+}
+
+.owner_address .input {
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #FFBD55;
+    border-right: 1px solid #FFBD55;
+}
+
+.owner_address .input input {
+    width: 100%;
+    height: 22px;
+    border: none;
+    background: #b0c9b9;
+    border-right: none;
+}
+
+.owner_address .input input:last-child {
+    border-bottom: 1px solid #FFBD55;
+}
