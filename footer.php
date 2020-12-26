@@ -1,3 +1,7 @@
+<!-------------
+ This code is written by Md. Sarowar Al-Amin
+---------->
+    
     <!------Initaial point of footer part---->
     <div class="container_full footer_bg maintainSpace">
         <div class="fix container footer_head">

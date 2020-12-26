@@ -5,6 +5,10 @@
 
     add_action('wp_enqueue_scripts', 'calling_resources');
 
+    register_nav_menus(array(
+        'primary' => __('Primary Menu')
+    ));
+
 
 
 

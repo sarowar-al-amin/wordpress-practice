@@ -1,3 +1,6 @@
+<!-------------
+ This code is written by Md. Sarowar Al-Amin
+---------->
 <!-- Adding header -->
 <?php get_header();?>
 
