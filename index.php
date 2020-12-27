@@ -60,7 +60,7 @@
                                     <img src="img/box1.png" alt="Image of Earphone">
                                 </div>
                                 <h3>Quick Support</h3>
-                                <p>Our support team is 24/7/365 active here to collaborate with you.</p>
+                                 <p>Our support team is 24/7/365 active here to collaborate with you.</p>
                             </div>
                             <div class="box">
                                 <div class="img_of_box">
