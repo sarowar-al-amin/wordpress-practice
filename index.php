@@ -333,5 +333,9 @@
         </div>
     </div>
     <!----------- Ending point of egihth container portion --------->
+    <?php get_template_part('circle');?>
+    <script>
+            $('.circlechart').circlechart(); // Initialization
+    </script>
 
     <?php get_template_part('footer');?>
