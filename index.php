@@ -1,12 +1,9 @@
-<!-------------
- This code is written by Md. Sarowar Al-Amin
----------->
-<!-- Adding header -->
-<?php get_header();?>
+
+<?php get_template_part('header');?>
 
     <!----------- Starting point of first Container portion --------->
-    <div class="container_full first_con_bg maintainSpace">
-        <div class="fix container">
+    <div class="fix container_full first_con_bg maintainSpace">
+        <div class="container">
             <div class="contain_first">
                 <section class="left_side_content">
                     <div class="head_bar">
@@ -31,7 +28,7 @@
                 </section>
                 <section class="right_side_content">
                     <div class="first_content_rs_img">
-                        <img src="img/Group 229.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/Group 229.png" alt="Image of people">
                     </div>
                 </section>
             </div>
@@ -40,7 +37,7 @@
     <!----------- Ending point of first container portion --------->
 
     <!----------- Initial point of second container portion --------->
-    <div class="container_full second_con_bg maintainSpace">
+    <div class="container_full  maintainSpace">
         <div class="fix container">
             <div class="contain_second">
                 <section class="left_side_content">
@@ -57,14 +54,14 @@
                         <div class="left_box">
                             <div class="box">
                                 <div class="img_of_box">
-                                    <img src="img/box1.png" alt="Image of Earphone">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/box1.png" alt="Image of Earphone">
                                 </div>
                                 <h3>Quick Support</h3>
-                                 <p>Our support team is 24/7/365 active here to collaborate with you.</p>
+                                <p>Our support team is 24/7/365 active here to collaborate with you.</p>
                             </div>
                             <div class="box">
                                 <div class="img_of_box">
-                                    <img src="img/box2.png" alt="Image of Earphone">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/box2.png" alt="Image of Earphone">
                                 </div>
                                 <h3>Dedicated Team</h3>
                                 <p>Our team is Brightly informative with every step of the work. This will fully explain the process and make the time affordable.
@@ -74,7 +71,7 @@
                         <div class="right_box">
                             <div class="box margin_box">
                                 <div class="img_of_box">
-                                    <img src="img/box3.png" alt="Image of Earphone">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/box3.png" alt="Image of Earphone">
                                 </div>
                                 <h3>Proven Performance</h3>
                                 <p>We have the proven ability to computer competences without mistakes and meeting deadlines is equally important.
@@ -82,7 +79,7 @@
                             </div>
                             <div class="box margin_box">
                                 <div class="img_of_box">
-                                    <img src="img/box4.png" alt="Image of Earphone">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/box4.png" alt="Image of Earphone">
                                 </div>
                                 <h3>100% Quality Maintain</h3>
                                 <p>Our team always maintain 100% quality work.
@@ -94,7 +91,7 @@
                 </section>
                 <section class="right_side_content">
                     <div class="second_content_rs_img">
-                        <img src="img/second_com_rs.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/second_com_rs.png" alt="Image of people">
                     </div>
                 </section>
             </div>
@@ -108,7 +105,7 @@
             <div class="contain_third">
                 <!-------Left portion of third container----->
                 <div class="left_side_content">
-                    <img src="img/thrid_containr_left.png" alt="Image of developing">
+                    <img src="<?php echo get_template_directory_uri();?>/img/thrid_containr_left.png" alt="Image of developing">
                 </div>
                 <!-----Right portion of the third container ----->
                 <div class="right_side_content">
@@ -161,7 +158,7 @@
                 <!------- Right side of Fourth Container-------->
                 <div class="right_side_content">
                     <div class="fourth_content_rs_img">
-                        <img src="img/Group 4364.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/Group 4364.png" alt="Image of people">
                     </div>
                 </div>
             </div>
@@ -177,7 +174,7 @@
                 <!-------Left portion of fifth container----->
                 <div class="left_side_content">
                     <div class="fifth_content_left_img">
-                        <img src="img/fifth_left_img.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/fifth_left_img.png" alt="Image of people">
                     </div>
                 </div>
                 <!-------Right portion of fifth container ----->
@@ -238,7 +235,7 @@
                 </div>
                 <div class="right_side_content">
                     <div class="sixth_content_rs_img">
-                        <img src="img/sixth_img.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/sixth_img.png" alt="Image of people">
                     </div>
                 </div>
             </div>
@@ -253,7 +250,7 @@
                 <!--------Left portion of the container------>
                 <div class="left_side_content">
                     <div class="seventh_content_rs_img">
-                        <img src="img/seventh_content_img.png" alt="Image of people">
+                        <img src="<?php echo get_template_directory_uri();?>/img/seventh_content_img.png" alt="Image of people">
                     </div>
                 </div>
                 <!--------Right portion of the container------>
@@ -326,7 +323,7 @@
                         margin-right: auto;
                         width: 3.5%;
                         height: 30px;
-                        display: block" src="img/customer_img.png" alt="custom Image">
+                        display: block" src="<?php echo get_template_directory_uri();?>/img/customer_img.png" alt="custom Image">
                         <h4>Joe Due</h4>
                         <h5>Ux / Ui Designer <mark>@Pixbey</mark></h5>
                         <!-- <img src="img/quotation-marks.png" alt="quatation mark"> -->
@@ -336,11 +333,5 @@
         </div>
     </div>
     <!----------- Ending point of egihth container portion --------->
-    <!-- Dynamic circle portion  -->
-    <?php
-        get_template_part('circle');
-    ?>
-    <!-- Dynamic footer -->
-    <?php
-        get_footer();
-    ?>
+
+    <?php get_template_part('footer');?>
