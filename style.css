@@ -127,6 +127,10 @@ em {
     left: -9999px;
 }
 
+#header>nav #menu ul li ul {
+    z-index: 999;
+}
+
 #header>nav #menu ul li:hover ul {
     left: 0px;
 }

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/modalbox.min.css" type="text/css" />
     <!-- <link rel="stylesheet" href="css/styleForSignUp.css"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <link rel="stylesheet" href="css/vendr-animtd-circle.css">  // Not process any function for it -->
     <?php
         wp_head();
@@ -32,7 +33,7 @@
                     <img src="<?php echo get_template_directory_uri();?>/img/logo redesign.png" alt="Image of logo">
                 </div>
                 <nav>
-                    <div id="menu">
+                    <!-- <div id="menu">
                         <ul>
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="#">Services &rsaquo;</a>
@@ -58,7 +59,16 @@
                                 </div>
                             </li>
                         </ul>
+                    </div> -->
+                    <div id="menu">                    
+                        <?php
+                            $args = array(
+                                'theme_location' => 'navigationMenu'
+                            );
+                            wp_nav_menu($args);
+                        ?>
                     </div>
+
                 </nav>
             </header>
         </div>

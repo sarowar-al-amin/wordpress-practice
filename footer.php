@@ -112,16 +112,16 @@
         <!------ Ending point of footer------>
 
         <!---------- JavaScript --------->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="jss/vendor-animated-circle.js"></script>
-        <script src="jss/main.js"></script>
+        <script src="jss/main.js"></script> -->
         <!-----Javascript for circle ---->
-        <script src="jss/progresscircle.js"></script>
-        <script>
-            $('.circlechart').circlechart(); // Initialization
-        </script>
-    </div>
+        <!-- <script src="jss/progresscircle.js"></script> -->
 
+    </div>
+    <script>
+            $('.circlechart').circlechart(); // Initialization
+    </script>
     <?php
         wp_footer();
     ?>
