@@ -215,7 +215,7 @@
                         <div class="extra_margin"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                         </div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
                         <div class="margin_trim"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -373,24 +373,3 @@
     <?php get_template_part('footer');?>
 
 
-<!------------------ common html code
-    <div class="container_full">
-        <div class="fix container">
-
-        </div>
-    </div>
--------->
-
-<!-------- Common portion in container part 
-    <div class="head_bar">
-        <div class="bar">
-            <div class="yellow"></div>
-            <div class="blue"></div>
-        </div>
-    </div>
-    
-    =======================
-    <div class="lead_six_text_box">
-        <h4>We're not your typical Digital Marketing Agency</h4>
-    </div>
------->

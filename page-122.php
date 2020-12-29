@@ -214,7 +214,7 @@
                         <div class="extra_margin"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                         </div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                         <div class="margin_trim"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
