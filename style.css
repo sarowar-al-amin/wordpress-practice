@@ -73,6 +73,11 @@ em {
     Background of header portion
 */
 
+#header {
+    height: 160px;
+    border-bottom: 10px;
+}
+
 .header_bg {
     background-color: #ffffff;
 }
@@ -89,6 +94,7 @@ em {
 #header .logo_left img {
     width: 116px;
     margin-left: -10px;
+    margin-top: -25px;
     height: 90px;
 }
 
@@ -103,7 +109,6 @@ em {
 
 #header>nav #menu ul {
     list-style-type: none;
-    z-index: 999;
 }
 
 #header>nav #menu ul li {
