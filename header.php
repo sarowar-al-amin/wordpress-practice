@@ -33,33 +33,6 @@
                     <img src="<?php echo get_template_directory_uri();?>/img/logo redesign.png" alt="Image of logo">
                 </div>
                 <nav>
-                    <!-- <div id="menu">
-                        <ul>
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Services &rsaquo;</a>
-                                <ul>
-                                    <li><a href="#">Adimn Support &rsaquo;</a></li>
-                                    <li><a href="#">Digital Marketing &rsaquo;</a></li>
-                                    <li><a href="#">Web Design Services</a></li>
-                                    <li><a href="#">Garphics Design Services</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Our products &rsaquo;</a>
-                                <ul>
-                                    <li><a href="#">Graphics Design</a></li>
-                                    <li><a href="#">Wordpress Theme</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Contact us</a></li>
-                            <li>
-                                <div id="sign_in">
-                                    <button id="dialogop3">
-                                        sign in
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> -->
                     <div id="menu">                    
                         <?php
                             $args = array(
