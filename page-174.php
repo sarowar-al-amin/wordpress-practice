@@ -213,7 +213,7 @@
                         <div class="extra_margin"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -254,7 +254,7 @@
                         </div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                         <div class="margin_trim"></div>
                         <div class="package_purchase">
                             <div class="purchase">
-                                <a href="#">$0.15 - Purchase Now</a>
+                                <a href="http://localhost/ExampleSite/file-uploaded/">$0.15 - Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -363,7 +363,7 @@
             <div class="lead_six_text">
                 <h4>We're not your typical Digital Marketing Agency</h4>
                 <div class="contact_us_box">
-                    <a href="#">Contact with us</a>
+                    <a href="http://localhost/ExampleSite/check-out/#">Contact with us</a>
                 </div>
             </div>
         </div>
