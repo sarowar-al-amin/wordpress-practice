@@ -120,7 +120,8 @@ em {
     color: black;
     font-family: Roboto;
     font-size: 12px;
-    padding: 4px 8px;
+    width: 100px;
+    padding: 3px 0px;
 }
 
 #header>nav #menu ul li {
