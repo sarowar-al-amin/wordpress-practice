@@ -31,10 +31,10 @@
             <header id="header">
                 <div class="dashboard">
                     <div class="logo_left">
-                        <img src="img/logo redesign.png" alt="Image of logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/logo redesign.png" alt="Image of logo">
                     </div>
                     <div class="user_info">
-                        <img src="img/customer_img.png" alt="User Image">
+                        <img src="<?php echo get_template_directory_uri();?>/img/customer_img.png" alt="User Image">
                         <div class="user_nmae">
                             <span>
                                     Khabib Nurmagomedov    <br>
