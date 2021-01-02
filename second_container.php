@@ -1,6 +1,6 @@
     <!----------- Initial point of Second container ------->
     <div class="container_full lead_second_bg ">
-        <div class="fix container">
+        <div class="container">
             <div class="graphic_second_contain">
                 <!------- Initial First portion of Second conatiner ----->
                 <div class="graphic_second_first maintainSpace">

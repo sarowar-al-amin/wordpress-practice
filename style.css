@@ -74,7 +74,7 @@ em {
 */
 
 #header {
-    height: 160px;
+    height: 72px;
     border-bottom: 10px;
 }
 
@@ -348,12 +348,6 @@ em {
     background-color: #0C131A;
 }
 
-#footer_bottom p {
-    width: 320px;
-    color: #BC833E;
-    float: left;
-}
-
 .maintainSpace {
     margin-top: 40px;
     padding-bottom: 0px;
@@ -467,12 +461,13 @@ em {
     Footer bottom
 */
 
-#footer_bottom {
-    padding: 20px 4px;
-}
-
 #footer_bottom p {
-    margin-top: 5px;
+    width: 360px;
+    color: #BC833E;
+    float: left;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 0em;
 }
 
 #footer_bottom span a i {
@@ -548,11 +543,11 @@ em {
     text-align: center;
     box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
     border-radius: 5px;
-    transition: all 0.4s ease;
+    transition: all 0.8s ease;
 }
 
 .box:hover {
-    border: 1px solid #1f1e1e;
+    border: 1px solid #f8f8f8;
     scale: 1.1;
     border-radius: 5px;
 }

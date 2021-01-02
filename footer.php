@@ -14,11 +14,12 @@
                 <h2>Name and logo</h2>
                 <div class="footer_p">
                     <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
+                    <a href="#">Read more</a>
                     </p>
                     <!-------I don't have any idea is it botton or link------->
-                    <a href="#">Read more</a>
+                    
                 </div>
-                <input type="email" placeholder="Enter your email">
+                
             </div>
             <div class="footer_col">
                 <div class="bar_wrap">
