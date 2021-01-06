@@ -334,7 +334,7 @@
     </div>
     <!----------- Ending point of egihth container portion --------->
     <?php get_template_part('circle');?>
-    <script>
+    <script type="text/javascript">
             $('.circlechart').circlechart(); // Initialization
     </script>
 
